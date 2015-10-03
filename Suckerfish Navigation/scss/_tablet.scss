@@ -1,0 +1,117 @@
+@media only screen and (min-width: 800px){
+    
+    /*=========== BANNER ===========*/
+
+    #banner{
+
+        background-image: url("../photos/banner-tablet.jpg");
+        height: 496px;
+    }
+    
+    /*=========== Navigation ===========*/
+    
+    #navWrapper{
+        
+        padding: 0;
+    }
+    
+    nav select{
+    
+        display: none;
+    }
+    
+    nav{
+        
+        padding: 0;
+    }
+    
+    nav ul{
+        
+        display: block;
+        padding: 0;
+        margin: 0 0 0 2%;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        border-right: 1px solid rgba(255,255,255,0.3);
+    }
+
+    nav ul li{
+        
+        float: left;
+    }
+
+    nav ul li a{
+        
+        border: none;
+        font-size: .9em;
+        font-weight: 300;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: .7em .9em;
+        border-right: 1px solid rgba(255,255,255,0.4);
+    }
+    
+    nav ul li.active > a{
+    
+        color: #fff;
+        background-color: #ff7200;
+    }
+    
+    nav ul li ul{
+        
+        z-index: 99;
+        position: absolute;
+        margin: 0;
+        left: -999em;
+        width: 10em;
+        background-color: #b00;
+    }
+    
+    nav ul li ul li{
+        
+        float: none;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        border-right: none;
+    }
+    
+    nav li:hover ul{
+        
+        left: auto;
+    }
+    
+    /*=========== COLUMN ===========*/
+    
+    .column-6, .column-4, .column-3{
+
+        float: left;
+    }
+    
+    .column-2{
+        
+        width: 33.333%;
+    }
+    
+    .column-3{
+        
+        width: 25%;
+    }
+    
+    .column-4{
+        
+        width: 33.333%;
+    }
+
+    .column-6{
+        
+        width: 50%;
+    }
+    
+    /*=========== FIGURE ===========*/
+
+    figure.col4{
+
+        width: 31.333%;
+    }
+}

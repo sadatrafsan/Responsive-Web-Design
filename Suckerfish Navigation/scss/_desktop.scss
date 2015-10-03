@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1140px){
+
+    /*=========== WRAPPER CONTENT ===========*/
+    
+    header, nav, .row, footer{
+    
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    /*=========== HEADER ===========*/
+    
+    header{
+        
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    
+    /*=========== BANNER ===========*/
+
+    #banner{
+
+        background-image: url("../photos/banner-desktop.jpg");
+        height: 500px;
+        background-position: center;
+    }
+    
+    /*=========== NAV ===========*/
+    
+    nav ul li a{
+        
+        transition: background .3s linear;
+    }
+    
+    nav ul li a:hover{
+        
+        background-color: rgba(0,0,0,0.2);
+    }
+    
+    /*=========== COLUMN ===========*/
+    
+    .column-2{
+        
+        width: 16.666%;
+    }
+}

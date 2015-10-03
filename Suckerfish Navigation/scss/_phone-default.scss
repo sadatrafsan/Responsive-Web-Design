@@ -1,0 +1,223 @@
+/*=========== DEFAULT ===========*/
+
+html {
+
+    -webkit-text-size-adjust: none;
+}
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*=========== BODY ===========*/
+
+body{
+    
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*=========== HEADER ===========*/
+
+#headerWrapper{
+    
+    background-color: #3b4044;
+}
+
+header{
+    
+    padding: 1em 2% .5em 2%;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.1em;
+    font-weight: 600;
+}
+
+header h2{
+    color: #ddd;
+    font-size: .9em;
+    font-weight: 300;
+    margin-top: .75em;
+}
+
+/*=========== BANNER ===========*/
+
+#banner{
+    
+    background-image: url("../photos/banner-phone.jpg");
+    background-repeat: no-repeat;
+    background-color: #DCC1A3;
+    height: 278px;
+}
+
+#navWrapper{
+    
+    background-color: #e61b10;
+    padding: .75em 2%;
+}
+
+nav{
+    
+    padding: .3em 0;
+}
+
+nav select{
+    
+    display: block;
+    margin: 0 2%;
+    width: 96%;
+}
+
+nav ul{
+    
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: .5em;
+    margin: .5em 2%;
+    background-color: rgba(255,255,255,0.8);
+}
+
+nav ul li a{
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    padding: .6em;
+    border-top: 1px solid #ccc;
+}
+
+nav ul li:first-child a{
+    
+    border-top: none;
+}
+
+nav ul li.active a{
+    
+    color: #ff7200; 
+}
+
+/*=========== CONTENT ===========*/
+
+#contentWrapper{
+    
+    background-color: #fff;
+}
+
+#contentWrapper .row:after{
+    
+    content: "";
+    display: table;
+    clear:both;
+}
+
+#contentWrapper h1{
+    
+    color: #e22121;
+    font-size: 2em;
+    padding-top: 1em;
+    text-shadow: 1px 1px 1px #999;
+}
+
+#contentWrapper hr {
+    height: 3px;
+    border: none;
+    background-color: #d6d6ce;
+    background: -moz-linear-gradient(left,  rgba(214,214,206,1) 0%, rgba(214,214,206,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(214,214,206,1)), color-stop(100%,rgba(214,214,206,0)));
+    background: -webkit-linear-gradient(left,  rgba(214,214,206,1) 0%,rgba(214,214,206,0) 100%);
+    background: -o-linear-gradient(left,  rgba(214,214,206,1) 0%,rgba(214,214,206,0) 100%);
+    background: -ms-linear-gradient(left,  rgba(214,214,206,1) 0%,rgba(214,214,206,0) 100%);
+    background: linear-gradient(to right,  rgba(214,214,206,1) 0%,rgba(214,214,206,0) 100%);
+}
+
+/*=========== COLUMN ===========*/
+
+.column-12, .column-6, .column-4, .column-3, .column-2{
+    
+    padding: .5em 2%;
+}
+
+.column-2{
+    
+    width: 50%;
+    float: left;
+}
+
+.column-2 img{
+    
+    width: 100%;
+}
+
+.color-1, .color-2{
+    
+    padding: .4em 1em .5em 1em;
+}
+
+.color-1{
+    
+    background-color: #f9f8c1;
+}
+
+.color-2{
+    
+    background-color: #ffddc1;
+}
+
+/*=========== FIGURE ===========*/
+
+figure.col4, figure.col6{
+    
+    width: 48%;
+    margin-left: 2%;
+    float: right;
+    border: 1px solid #999;
+}
+
+figcaption{
+    
+    text-align: center;
+    font-size: .8em;
+    padding: .3em 0;
+}
+
+figure.col4 img, figure.col6 img{
+    
+    width: 100%;
+}
+/*=========== FOOTER ===========*/
+
+#footerWrapper{
+    
+    background-color: #745;
+}
+
+footer{
+    
+    clear: both;
+    padding: .6em;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: .7em;
+}
+
+footer a{
+    
+    color: #fff;
+}
+
+/*=========== FLOAT FIX ===========*/
+
+.clearfix:after{
+    
+    content: "";
+    display: table;
+    clear:both;
+}

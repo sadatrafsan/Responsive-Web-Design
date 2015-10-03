@@ -1,0 +1,70 @@
+@media only screen and (min-width: 641px){
+    
+    /*=========== BANNER ===========*/
+
+    #banner{
+
+        background-image: url("../photos/banner-tablet.jpg");
+        height: 496px;
+    }
+    
+    /*=========== NAVIGATION ===========*/
+    
+    nav ul{
+        
+        padding: 0;
+        margin-left: 2%;
+        border-left: 1px solid rgba(0,0,0,0.4);
+    }
+
+    nav ul li{
+        
+        margin: 0;
+        width: auto;
+    }
+
+    nav ul li a{
+        
+        margin: 0;
+        padding: 1em 1.5em;
+        background-color: transparent;
+        font-weight: 300;
+        font-size: .9em;
+        border-radius: 0;
+        border-right: 1px solid rgba(0,0,0,0.4);
+    }
+    
+    /*=========== COLUMN ===========*/
+    
+    .column-6, .column-4, .column-3{
+
+        float: left;
+    }
+    
+    .column-2{
+        
+        width: 33.333%;
+    }
+    
+    .column-3{
+        
+        width: 25%;
+    }
+    
+    .column-4{
+        
+        width: 33.333%;
+    }
+
+    .column-6{
+        
+        width: 50%;
+    }
+    
+    /*=========== FIGURE ===========*/
+
+    figure.col4{
+
+        width: 31.333%;
+    }
+}
